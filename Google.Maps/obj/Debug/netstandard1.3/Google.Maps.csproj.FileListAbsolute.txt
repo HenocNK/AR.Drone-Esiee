@@ -1,0 +1,8 @@
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Google.Maps\bin\Debug\netstandard1.3\Google.Maps.deps.json
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Google.Maps\bin\Debug\netstandard1.3\Google.Maps.dll
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Google.Maps\bin\Debug\netstandard1.3\Google.Maps.pdb
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Google.Maps\obj\Debug\netstandard1.3\Google.Maps.csproj.AssemblyReference.cache
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Google.Maps\obj\Debug\netstandard1.3\Google.Maps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Google.Maps\obj\Debug\netstandard1.3\Google.Maps.csproj.CoreCompileInputs.cache
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Google.Maps\obj\Debug\netstandard1.3\Google.Maps.dll
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Google.Maps\obj\Debug\netstandard1.3\Google.Maps.pdb
