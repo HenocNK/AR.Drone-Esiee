@@ -1,0 +1,11 @@
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\bin\Release\Test_1.exe.config
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\bin\Release\Test_1.exe
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\bin\Release\Test_1.pdb
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\obj\Release\Test_1.csproj.AssemblyReference.cache
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\obj\Release\Test_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\obj\Release\Test_1.Scherm_1.resources
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\obj\Release\Test_1.Properties.Resources.resources
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\obj\Release\Test_1.csproj.GenerateResource.cache
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\obj\Release\Test_1.csproj.CoreCompileInputs.cache
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\obj\Release\Test_1.exe
+C:\Users\henoc\source\YMFC-32_Flight_Monitor\YMFC-32_Flight_Monitor\Test_1\obj\Release\Test_1.pdb
