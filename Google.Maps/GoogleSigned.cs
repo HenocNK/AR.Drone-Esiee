@@ -44,7 +44,7 @@ namespace Google.Maps
 		/// <remarks>
 		/// apikey=YOUR_KEY[&secret=SHARED_SECRET]
 		/// clientId=gme-YOUR_CLIENT_ID&secret=SHARED_SECRET
-		///			80417038001-hmcpg8ntbfh2sms6jquimffd31lq0k8t.apps.googleusercontent.com&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
+		///			
 		/// </remarks>
 		/// <param name="appSettings"></param>
 		/// <param name="key"></param>
@@ -67,12 +67,12 @@ namespace Google.Maps
 			GoogleSignedType signedType = (GoogleSignedType)0;
 			string idString = null;
 
-			if(check[0].StartsWith("AIzaSyAUSb1l_pbgjTmwZikyff3urQTT2KUsjIU", StringComparison.OrdinalIgnoreCase))
+			if(check[0].StartsWith("Api_key", StringComparison.OrdinalIgnoreCase))
 			{
 				signedType = GoogleSignedType.ApiKey;
 				idString = check[0].Substring(7);
 			}
-			else if(check[0].StartsWith("80417038001-hmcpg8ntbfh2sms6jquimffd31lq0k8t.apps.googleusercontent.com", StringComparison.OrdinalIgnoreCase))
+			else if(check[0].StartsWith("User_Id", StringComparison.OrdinalIgnoreCase))
 			{
 				signedType = GoogleSignedType.Business;
 				idString = check[0].Substring(9);
@@ -80,7 +80,7 @@ namespace Google.Maps
 
 			string usablePrivateKey = null;
 
-			if(check[1].StartsWith("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", StringComparison.OrdinalIgnoreCase))
+			if(check[1].StartsWith("Client_ID", StringComparison.OrdinalIgnoreCase))
 			{
 				usablePrivateKey = check[1].Substring(7);
 			}
