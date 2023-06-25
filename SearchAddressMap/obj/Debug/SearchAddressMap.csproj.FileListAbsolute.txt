@@ -1,0 +1,17 @@
+C:\Users\henoc\Source\Repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\SearchAddressMap.csproj.AssemblyReference.cache
+C:\Users\henoc\Source\Repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\SearchAddressMap.csproj.SuggestedBindingRedirects.cache
+C:\Users\henoc\Source\Repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\Window1.baml
+C:\Users\henoc\Source\Repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\Window1.g.cs
+C:\Users\henoc\Source\Repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\App.g.cs
+C:\Users\henoc\Source\Repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\SearchAddressMap_MarkupCompile.cache
+C:\Users\henoc\Source\Repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\SearchAddressMap.g.resources
+C:\Users\henoc\Source\Repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\SearchAddressMap.csproj.CoreCompileInputs.cache
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Samples\SearchAddressMap\bin\Debug\SearchAddressMap.exe.config
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Samples\SearchAddressMap\bin\Debug\SearchAddressMap.exe
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Samples\SearchAddressMap\bin\Debug\SearchAddressMap.pdb
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Samples\SearchAddressMap\bin\Debug\Google.Maps.dll
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Samples\SearchAddressMap\bin\Debug\Newtonsoft.Json.dll
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Samples\SearchAddressMap\bin\Debug\Google.Maps.pdb
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\SearchAddressMap.csproj.CopyComplete
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\SearchAddressMap.exe
+C:\Users\henoc\source\repos\gmaps2-api-net\src\Samples\SearchAddressMap\obj\Debug\SearchAddressMap.pdb
