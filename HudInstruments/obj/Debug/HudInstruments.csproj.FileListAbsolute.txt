@@ -1,0 +1,9 @@
+C:\Users\henoc\Source\Repos2\HudInstruments\bin\Debug\HudInstruments.dll
+C:\Users\henoc\Source\Repos2\HudInstruments\bin\Debug\HudInstruments.pdb
+C:\Users\henoc\Source\Repos2\HudInstruments\bin\Debug\ARDroneBasics.dll
+C:\Users\henoc\Source\Repos2\HudInstruments\bin\Debug\ARDroneBasics.pdb
+C:\Users\henoc\Source\Repos2\HudInstruments\obj\Debug\HudInstruments.csproj.AssemblyReference.cache
+C:\Users\henoc\Source\Repos2\HudInstruments\obj\Debug\HudInstruments.csproj.CoreCompileInputs.cache
+C:\Users\henoc\Source\Repos2\HudInstruments\obj\Debug\HudInstruments.csproj.CopyComplete
+C:\Users\henoc\Source\Repos2\HudInstruments\obj\Debug\HudInstruments.dll
+C:\Users\henoc\Source\Repos2\HudInstruments\obj\Debug\HudInstruments.pdb
