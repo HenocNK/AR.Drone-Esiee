@@ -1,0 +1,98 @@
+version: 0.32.{build}
+
+pull_requests:
+  do_not_increment_build_number: true
+
+configuration: Release
+
+#shallow_clone: true
+#clone_depth: 10
+
+image: Visual Studio 2017
+
+install:
+  - choco install gitversion.portable -pre -y
+
+#init:
+#- ps: >
+#    iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+#
+#    if($env:APPVEYOR_REPO_TAG -eq "true" -And $env:APPVEYOR_REPO_TAG_NAME.StartsWith("v") -eq $true) {
+#
+#      Set-AppVeyorBuildVariable -Name APPVEYOR_BUILD_VERSION -Value $env:APPVEYOR_REPO_TAG_NAME.Substring(1)
+#
+#    }
+#  
+
+assembly_info:
+  patch: false
+
+environment:
+  GOOGLE_API_KEY:
+    secure: pnYRPfFKB+uub3hlM9mX2q3CzVKsqCg/EM/lFZ2DN6yePU4wBbhr0PhBf3dDVgU4
+  APPVEYOR_RDP_PASSWORD: 
+    secure: tXLj55KTiLnAgoQp6lXCHg==
+
+before_build:
+#  - nuget restore
+  - ps: gitversion /l console /output buildserver /updateAssemblyInfo
+  - msbuild src\GoogleMapsForNET.sln /t:restore
+
+build:
+  project: src\GoogleMapsForNET.sln
+
+after_build:
+#- cmd: nuget pack gmaps-api-net.nuspec -version %APPVEYOR_BUILD_VERSION%
+  - cmd: ECHO nuget pack gmaps-api-net.nuspec -version "%GitVersion_NuGetVersion%" 
+  - cmd: nuget pack gmaps-api-net.nuspec -version "%GitVersion_NuGetVersion%" 
+
+#test_script:
+#- ps: >-
+#    
+#    $DLL_LOCATION=".\src\Google.Maps.Test\bin\Release\net461\Google.Maps.Test.dll"
+#    
+#    nunit3-console $DLL_LOCATION --labels=All --where:"cat!=ValueTesting" "--result=testresults.xml;format=AppVeyor"
+#
+#    if($? -eq $true) {
+#
+#      nunit3-console $DLL_LOCATION --labels=All --where:"cat!=ValueTesting" "--result=testresults2.xml;format=AppVeyor"
+#
+#    }
+test:
+  categories:
+    except:
+    - ValueTesting
+after_test:
+#- cmd: curl 'http://api.ipify.org?format=json'
+- ps: Invoke-RestMethod -Uri "https://api.ipify.org?format=json"
+
+
+artifacts:
+- path: '*.nupkg'
+  name: NuGetPackage
+
+deploy:
+- provider: NuGet
+  api_key:
+    secure: E/MEPFHwwhpDVYpgz8oX3v8PArgHzHS6AmSdD4Lt31vxKWaoM4jQtls2JGiY7Ikf
+  artifact: NugetPackage
+  on:
+    APPVEYOR_REPO_TAG: true
+- provider: GitHub
+  tag: $(APPVEYOR_REPO_TAG_NAME)
+  auth_token:
+    secure: bupArXj8lz6RLLO8GPwyRnbGwcmyjg4MvmlBsYD8x+euC9YS5G5y9jaSPCpS7tsX
+  artifact: NugetPackage
+  draft: true
+  force_update: true
+  on:
+    APPVEYOR_REPO_TAG: true
+
+notifications:
+- provider: Email
+  to:
+  - ericnewton76@gmail.com
+  subject: Gmaps-api-net build completed.
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
