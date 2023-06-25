@@ -1,0 +1,9 @@
+C:\Users\henoc\Source\Repos2\bin\Debug\AviationInstruments\AviationInstruments.dll
+C:\Users\henoc\Source\Repos2\bin\Debug\AviationInstruments\AviationInstruments.pdb
+C:\Users\henoc\Source\Repos2\AviationInstruments\obj\Debug\AviationInstruments.csproj.AssemblyReference.cache
+C:\Users\henoc\Source\Repos2\AviationInstruments\obj\Debug\AviationInstruments.AvionicsInstrumentsControlsRessources.resources
+C:\Users\henoc\Source\Repos2\AviationInstruments\obj\Debug\AviationInstruments.csproj.GenerateResource.cache
+C:\Users\henoc\Source\Repos2\AviationInstruments\obj\Debug\AviationInstruments.csproj.CoreCompileInputs.cache
+C:\Users\henoc\Source\Repos2\AviationInstruments\obj\Debug\AviationInstruments.csproj.CopyComplete
+C:\Users\henoc\Source\Repos2\AviationInstruments\obj\Debug\AviationInstruments.dll
+C:\Users\henoc\Source\Repos2\AviationInstruments\obj\Debug\AviationInstruments.pdb
