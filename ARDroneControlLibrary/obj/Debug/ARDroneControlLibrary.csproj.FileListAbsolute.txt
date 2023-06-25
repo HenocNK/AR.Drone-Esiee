@@ -1,0 +1,7 @@
+C:\Users\henoc\Source\Repos2\bin\Debug\ARDroneControlLibrary\ARDrone.Control.dll
+C:\Users\henoc\Source\Repos2\bin\Debug\ARDroneControlLibrary\ARDrone.Control.pdb
+C:\Users\henoc\Source\Repos2\ARDroneControlLibrary\obj\Debug\ARDroneControlLibrary.csproj.AssemblyReference.cache
+C:\Users\henoc\Source\Repos2\ARDroneControlLibrary\obj\Debug\ARDroneControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\henoc\Source\Repos2\ARDroneControlLibrary\obj\Debug\ARDroneControlLibrary.csproj.CopyComplete
+C:\Users\henoc\Source\Repos2\ARDroneControlLibrary\obj\Debug\ARDrone.Control.dll
+C:\Users\henoc\Source\Repos2\ARDroneControlLibrary\obj\Debug\ARDrone.Control.pdb
