@@ -1,0 +1,7 @@
+C:\Users\henoc\Source\Repos2\bin\Debug\InputLibrary\ARDrone.Input.dll
+C:\Users\henoc\Source\Repos2\bin\Debug\InputLibrary\ARDrone.Input.pdb
+C:\Users\henoc\Source\Repos2\ARDroneInput\obj\Debug\ARDroneInput.csproj.AssemblyReference.cache
+C:\Users\henoc\Source\Repos2\ARDroneInput\obj\Debug\ARDroneInput.csproj.CoreCompileInputs.cache
+C:\Users\henoc\Source\Repos2\ARDroneInput\obj\Debug\ARDroneInput.csproj.CopyComplete
+C:\Users\henoc\Source\Repos2\ARDroneInput\obj\Debug\ARDrone.Input.dll
+C:\Users\henoc\Source\Repos2\ARDroneInput\obj\Debug\ARDrone.Input.pdb
